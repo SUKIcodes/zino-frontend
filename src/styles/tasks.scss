@@ -1,0 +1,19 @@
+section {
+  height: calc(100vh - 5rem);
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 60vh;
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow-y: auto;
+}
